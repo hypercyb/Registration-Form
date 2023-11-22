@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Registartion</title>
+  </head>
+
+  <body>
+      <table class="f"  style="margin-left: auto; margin-right:auto";>
+        <h1>Employee Registartion Form</h1>
+       <tbody>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" placeholder="Type your full name" /></td>
+          
+          <td>Father Name</td>
+          <td><input type="text" placeholder="Type your Father name" /></td>
+        </tr>
+        <tr>
+          <td>User Id</td>
+          <td><input type="text" placeholder="Type your user id" /></td>
+          <td>Password</td>
+          <td><input type="password" placeholder="password" /></td>
+        </tr>
+        <tr>
+          <td>D.O.B</td>
+          <td><input type="date" /></td>
+          <td>Mobile No.</td>
+          <td><input type="tel" placeholder="type your phone number" /></td>
+        </tr>
+        <tr>
+          <td>Adhaar No.</td>
+          <td><input type="text" placeholder="uid no" /></td>
+          <td>PAN No.</td>
+          <td><input type="text" placeholder="Pan no" /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="text" placeholder="example@gmail.com" /></td>
+          <td>Gender</td>
+          <td>
+            <select name="Gender">
+              <option value="Male">Male</option>
+              <option value="female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Qualification</td>
+          <td colspan="3"><input type="checkbox" value="BCA" >BCA
+          <input type="checkbox" value="b.tech" >B.Tech
+          <input type="checkbox" value="m.tech" >M.Tech
+          <input type="checkbox" value="MCA" >MCA
+          <input type="checkbox" value="MBA">MBA</td>
+        </tr>
+        <tr>
+          <td>Job</td>
+          <td>
+            <select name="Job" ">
+              <option value="Manager">Manager</option>
+              <option value="Assistant Manager">Assistant Manager</option>
+              <option value="Team Lead">Team Lead</option>
+              <option value="Project Manager">Project Manager</option>
+              <option value="Trainer">Trainer</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Total experience year</td>
+          <td><input type="number" min="1" /></td>
+          <td>Previous Company</td>
+          <td><input type="text" placeholder="company name" /></td>
+        </tr>
+        <tr>
+          <th colspan="4">
+            <input class="btn" type="button" value="save" />
+            <input class="btn" type="button" value="Clear" />
+            <input class="btn" type="button" value="save" />
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  </html>
